@@ -1,0 +1,59 @@
+/* Burger.css */
+
+/* Estilo del menú */
+.bm-menu {
+  background: #f3f3f4;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+  backdrop-filter: blur(8px);
+  position: fixed !important;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 300px;
+  transform: none !important; /* Evita desplazamientos */
+  transition: opacity 0.3s ease-in-out; /* Transición suave */
+}
+
+/* Ocultar overlay si no lo necesitas */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* Ítems del menú */
+.bm-item {
+  display: inline-block;
+  color: #462255;
+  margin-bottom: 10px;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.bm-item:hover {
+  color: #5c8a00;
+}
+
+/* Botón hamburguesa a la derecha */
+.bm-burger-button {
+  position: fixed;
+  width: 30px;
+  height: 24px;
+  right: 20px;
+  top: 20px;
+  left: auto; /* Anula 'left: 20px' anterior */
+  background-color: #f3f3f4;
+}
+
+/* Barras del botón */
+.bm-burger-bars {
+  background: #462255;
+}
+
+/* Ocultar botón de cerrar */
+.bm-cross-button {
+  display: none;
+}
+
+.bm-cross {
+  display: none;
+}

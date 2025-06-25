@@ -1,0 +1,155 @@
+
+@import 'tailwindcss';
+ 
+/*
+        greenMoss: "#7e954b",
+        russianViolet: "#462255",
+        africanViolet: "#b68cb8",
+        whiteCustom: "#fcfaf9",
+        lightGray: "#f3f3f4",
+        blackCustom: "#000000",
+*/
+@theme {
+  --color-mainBackground: #fcfaf9;
+  --color-h1: #462255;
+  --color-h2: #462255;
+  --color-text: #000;
+
+  /*Nav*/
+  --color-navBackground: #f3f3f4;
+  --color-navBackgroundScroll: #7e954b;
+  --color-navBorder: #7e954b;
+
+  --color-navText: #7e954b;
+  --color-navHover: #462255;
+
+  /*Botones*/
+  --color-buttonBackground: #fcfaf9;
+  --color-buttonBorder: #000;
+  --color-buttonText: #000000;
+  --color-buttonBackgroundHover: #7e954b;
+  --color-buttonBorderHover: #7e954b;
+  --color-buttonTextHover: #fcfaf9;
+
+  /*SubHeader*/
+  --color-subHeaderBackground: rgba(243, 243, 244, 0.8);
+
+  /*Que hacemos*/
+  --color-doneFormula: #000;
+  --color-doneFourmlaBorder: #7e954b;
+
+  /*Galería*/
+  --color-galeriaBackground: #f3f3f4;
+
+  /*Formularios*/
+  --color-inputFocus: #7e954b;
+  --color-bgForm: #f3f3f4;
+  --color-bgInputs: #fcfaf9;
+
+  /* Página de entradas*/
+  --color-precioTickets: #7e954b;
+  --color-checkboxSelected: #7e954b;
+
+  /* Página de contacto */
+
+    --color-address: #7e954b;
+
+  /*Footer*/
+  --color-footerBorder: #7e954b;
+  --color-footerBackground: #f3f3f4;
+  --color-footerText: #7e954b;
+  --color-footerTextHover: #462255;
+}
+
+
+body{
+  background-color: var(--color-mainBackground);
+}
+
+
+
+/* *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: grid;
+  min-height: 100dvh;
+  grid-template-rows: auto 1fr auto;
+}
+
+footer {
+  background-color: red;
+  padding: 1rem;
+  text-align: center;
+} */
+/* :root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
